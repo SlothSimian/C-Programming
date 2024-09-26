@@ -1,4 +1,4 @@
-// Intro to structure
+//Intro to structure
 #include<stdio.h>
 #include<string.h>
 struct employee{

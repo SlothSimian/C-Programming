@@ -1,10 +1,11 @@
 #include<stdio.h>
           
 int main(){
-    FILE *fptr;
+    //file input
+    FILE *Fptr;
     int number = 69;
-    fptr = fopen("generate.txt", "w");
-    fprintf(fptr, "The number is %d", number);
-    fclose(fptr);
+    Fptr = fopen("generate.txt", "w");
+    fprintf(Fptr, "The number is %d", number);
+    fclose(Fptr);
     return 0;
 }
